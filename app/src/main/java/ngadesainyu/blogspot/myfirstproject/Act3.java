@@ -13,7 +13,8 @@ public class Act3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_act3);
-
+        int a = 10;
+        //cobain
         Button btnPindah = findViewById(R.id.btn);
         btnPindah.setOnClickListener(new View.OnClickListener() {
             @Override
